@@ -66,7 +66,7 @@ class TestVarasto(unittest.TestCase):
     
     def test_virheellinen_alusaldo(self):
         self.assertAlmostEqual(self.varasto2.saldo, 0.0)
-        self.assertAlmostEqual(self.varasto.saldo, 10)
+        self.assertAlmostEqual(self.varasto.saldo, 0)
 
     
     
